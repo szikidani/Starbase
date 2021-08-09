@@ -1,0 +1,6 @@
+If :Scanner==1 then goto 2 end goto 1
+V="" S="" :I=0 :LastScan="" :Start=1 goto 4
+:LastScan=:LastScan+S+"\n"+V+"\n" :I++
+if :R==0 then :LastScan="Nothing detected!" :Scanner=0 goto 1 end
+if :R>:I then S=:Mats-" Ore"-" Crystals" V=:Vol+" kv" goto 3 end
+:Scanner=0 :Reset=1 goto 1

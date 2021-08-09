@@ -1,0 +1,1 @@
+:GenRate=:HalfEPS+(10000-:Battery)/80 goto 1

@@ -1,0 +1,2 @@
+:TotalPropellant=:Propellant1+:Propellant2
+:TotalRods=:Rod1+:Rod2+:Rod3+:Rod4+:Rod5 goto1
